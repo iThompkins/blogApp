@@ -1,5 +1,27 @@
+.testBlue{
+  background-color: blue;
+}
+
+.testRed{
+  background-color: red;
+}
+
+p{
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+  left: 25%;
+  position: relative;
+}
+.img{
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
 .App {
   text-align: center;
+  position: absolute;
 }
 
 .App-logo {
@@ -18,9 +40,42 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+#github-link{
+  cursor: pointer;
+}
 .App-link {
   color: #61dafb;
+}
+.fifthWidth{
+  width: 20%;
+  margin: 10px;
+}
+#header{
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  width:100%;
+  height: 10%;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.body-page{
+  height: 100vh;
+  width: 100vw;
+}
+#title-page{
+  top: 50%;
+}
+#work-page{
+  top: 30%;
+}
+
+.page-content{
+  align-items: center;
+  position: relative;
 }
 
 @keyframes App-logo-spin {
