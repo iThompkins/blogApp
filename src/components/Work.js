@@ -1,18 +1,24 @@
 import React from 'react'
-import spitball from '../spitball_landing.png'
 
-export default function Work(){
+export default function Work(props){
 	return(
 		<div className='body-page'>
 			<div id='work-page' className='page-content'>
-				<h4>Spitball.io</h4>
-				<img className='img' src={spitball} />
-				<p>
-					A Ruby on Rails web application I developed in the Spring of 2018.
-       				It is a platform designed to connect budding entreprenuers with one another
-       				to form ventures over the internet!
-				</p>
+				<div>
+					<h4 style={styles.title}>{props.title}</h4> <a style={styles.title} class='site-link' href={props.link} target='_blank'>&#8599;</a>
+				</div>
+				<div>
+					<img className='img' src={props.img} />
+					<p>
+						{props.blurb}
+					</p>
+				</div>
 			</div>
 		</div>
 	)
+}
+const styles = {
+	title:{
+		display: 'inline-block'
+	}
 }
