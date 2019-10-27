@@ -7,16 +7,7 @@
 }
 .site-link{
   text-decoration: none;
-  border: 1px solid black;
-  border-radius: 10px;
-  width:3%;
   color: black;
-  font-size:10px;
-  vertical-align: middle;
-}
-.site-link:hover{
-  color: white;
-  background-color: black;
 }
 p{
   width: 50%;
@@ -28,7 +19,7 @@ p{
 .img{
   width: 50%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+  border-radius: 10px;
 }
 
 .App {
@@ -75,17 +66,17 @@ p{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .body-page{
-  height: 100vh;
+  height: 125vh;
   width: 100vw;
 }
 #title-page{
-  top: 50%;
-}
-#work-page{
-  top: 30%;
+  top: 35%;
+  align-items: center;
+  position: relative;
 }
 
 .page-content{
+  padding-top: 125px;
   align-items: center;
   position: relative;
 }

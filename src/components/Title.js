@@ -5,15 +5,15 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 export default function Title(){
 	return(
 		<div className='body-page'>
-			<div id='title-page' className='page-content'>
-				<h3>
+			<div id='title-page'>
+				<h1>
 					Hello, I'm Isaiah Thompkins
-				</h3>
-				<p>
+				</h1>
+				<p style={{fontSize: '20px'}}>
 					A full-stack web developer
 				</p>
 				<p>
-					<a id='github-link' href='https://github.com/iThompkins' target='_blank'><FontAwesomeIcon icon={ faGithub } /></a>
+					<a id='github-link' href='https://github.com/iThompkins' target='_blank'><FontAwesomeIcon icon={ faGithub } size={'2x'}/></a>
 				</p>
 			</div>
 		</div>
